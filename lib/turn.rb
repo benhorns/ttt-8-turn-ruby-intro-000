@@ -9,8 +9,8 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
-
-until valid_move?(board,index)
+until board.between? (1,9)
+  turn(board)
 end
 end
 
