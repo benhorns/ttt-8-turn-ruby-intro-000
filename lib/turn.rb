@@ -9,10 +9,7 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
-  input=1
-until input.between?(1,9)
-  turn(board)
-end
+
 end
 
 def valid_move?(board,index)
@@ -24,10 +21,10 @@ def move(board,position,player = 'X')
 board[position] = player
 end
 
-#def input_to_index(user_input)
-#  puts"Where would you like to go?"
-#user_input.to_i - 1
-#end
+def input_to_index(user_input)
+  puts"Where would you like to go?"
+user_input.to_i - 1
+end
 
 
 
