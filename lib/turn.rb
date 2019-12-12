@@ -8,7 +8,7 @@ def display_board(board)
 end
 
 def turn(board)
-until board.between?(1,9)
+until valid_move?(board,index)
   puts "Please enter 1-9:"
 end
 end
