@@ -8,7 +8,7 @@ def display_board(board)
 end
 
 def turn(board)
-until board>=1 || board<=9
+until board >= 1 || board <= 9
   puts "Please enter 1-9:"
 end
 end
