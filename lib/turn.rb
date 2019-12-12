@@ -17,7 +17,7 @@ index.between?(0,8) && !position_taken?(board,index)
 
 end
 
-def move(board,position,player = 'X')
+def move(board,index)
 board[position] = player
 end
 
