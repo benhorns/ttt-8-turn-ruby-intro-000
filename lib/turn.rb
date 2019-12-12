@@ -12,6 +12,7 @@ def turn(board)
   input=gets.strip
   index = input_to_index(user_input)
   valid_move?(board,index)
+  user_input=board
 end
 
 def valid_move?(board,index)
