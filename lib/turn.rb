@@ -9,8 +9,6 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
-until valid_move?(board,index=0)==true
-
      board=gets.strip
   end
 end
